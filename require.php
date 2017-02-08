@@ -7,9 +7,11 @@
       $_SESSION['counter'] = 1;
    }
 	
-   $msg = "You have visited this page ".  $_SESSION['counter'];
-   $msg .= "in this session.";
-   echo "<p> $msg</p>"
+   $msg = "you have visited this page ".  $_SESSION['counter'];
+   $msg .= " times in this sessions.";
+   echo  $_GET['id'];
+   echo "<p> ".$_GET['name']." $msg </p>";
+
 ?>
 
 

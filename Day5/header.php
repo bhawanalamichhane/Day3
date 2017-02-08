@@ -51,13 +51,14 @@
 </head>
 <body>
 <?php $id= "Welcome & Enjoy"; ?>
+<?php $link= "<click> & Learn"; ?>
 <h1 align="center">Welcome to Day3!</h1>
 <div id="wrap">
 <div id="nav">
-<ul>
-  <li><a href="require.php?name=Bhawana lamichhane&id=<?php echo urlencode($id)?>">SESSIONS</a></li>
-  <li><a href="http://localhost/assignments/sum.php">VALUES</a></li>
-  <li><a href="#">FORMS</a></li>
+<ul> 
+  <li><a href="require.php?name=Bhawana Lamichhane&id=<?php echo urlencode($id)?>">INCLUDEE</a></li>
+  <li><a href="http://localhost/Day5/footer.php">FOOTER</a></li>
+  <li><a href="header.php"><?php echo htmlspecialchars($link); ?></a></li>
   <li><a href="#">ABOUT US</a></li>
   <li><a href="#">CONTACT US</a></li> </ul>
 </div>
